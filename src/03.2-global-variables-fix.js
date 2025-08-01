@@ -1,14 +1,15 @@
+
 function add(x, y) {
   return x + y;
 }
 
-function subtract(x, y) {
+function substract(x, y) {
   return x - y;
 }
 
-function accumulate(x) {
-  // This function is no longer possible
+function accumulate(x,current) {
+  return x + current 
 }
 
-console.log(add(5, 10));
-console.log(subtract(6, 12));
+console.log(add(5, 10))
+console.log(accumulate(substract(6,12),6))
